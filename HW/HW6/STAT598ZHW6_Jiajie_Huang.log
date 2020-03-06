@@ -1,0 +1,687 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.31)  15 APR 2013 20:58
+entering extended mode
+**STAT598ZHW6_Jiajie_Huang.tex
+(C:\Users\Jiajie\Dropbox\STAT598Z\HW\HW6\STAT598ZHW6_Jiajie_Huang.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fleqn.clo"
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\preprint\fullpage.sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen104
+\Hy@linkcounter=\count87
+\Hy@pagecounter=\count88
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count89
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count90
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen105
+\Fld@menulength=\count91
+\Field@Width=\dimen106
+\Fld@charsize=\dimen107
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count92
+\c@Item=\count93
+\c@Hfootnote=\count94
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count95
+\c@bookmark@seq@number=\count96
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip44
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+\UL@box=\box26
+\UL@hyphenbox=\box27
+\UL@skip=\skip45
+\UL@hook=\toks15
+\UL@height=\dimen108
+\UL@pe=\count97
+\UL@pixel=\dimen109
+\ULC@box=\box28
+Package: ulem 2012/05/18
+\ULdepth=\dimen110
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen112
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count98
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count99
+\leftroot@=\count100
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count101
+\DOTSCASE@=\count102
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip11
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks17
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks21
+\float@box=\box31
+\@float@everytoks=\toks22
+\@floatcapt=\box32
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks23
+\c@algorithm=\count111
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count112
+\c@ALG@rem=\count113
+\c@ALG@nested=\count114
+\ALG@tlm=\skip49
+\ALG@thistlm=\skip50
+\c@ALG@Lnr=\count115
+\c@ALG@blocknr=\count116
+\c@ALG@storecount=\count117
+\c@ALG@tmpcounter=\count118
+\ALG@tmplength=\skip51
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count119
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
+Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count120
+\calc@Bcount=\count121
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count122
+\calc@Cskip=\skip54
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+\g_MT_multlinerow_int=\count123
+\l_MT_multwidth_dim=\dimen124
+\origjot=\skip55
+\l_MT_shortvdotswithinadjustabove_dim=\dimen125
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen126
+\l_MT_above_intertext_dim=\dimen127
+\l_MT_below_intertext_dim=\dimen128
+\l_MT_above_shortintertext_dim=\dimen129
+\l_MT_below_shortintertext_dim=\dimen130
+)
+(C:\Users\Jiajie\Dropbox\STAT598Z\HW\HW6\STAT598ZHW6_Jiajie_Huang.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 30.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
+
+(C:\Users\Jiajie\Dropbox\STAT598Z\HW\HW6\STAT598ZHW6_Jiajie_Huang.out)
+(C:\Users\Jiajie\Dropbox\STAT598Z\HW\HW6\STAT598ZHW6_Jiajie_Huang.out)
+\@outlinefile=\write3
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count125
+\scratchdimen=\dimen131
+\scratchbox=\box34
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen132
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks25
+)
+Overfull \hbox (2.14877pt too wide) in paragraph at lines 32--33
+[]  
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+
+<F01.png, id=6, 881.54344pt x 526.21594pt>
+File: F01.png Graphic file (type png)
+ <use F01.png>
+Package pdftex.def Info: F01.png used on input line 42.
+(pdftex.def)             Requested size: 512.1496pt x 305.72737pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 42--43
+ [][] 
+ []
+
+<F02.png, id=8, 864.98157pt x 526.21594pt>
+File: F02.png Graphic file (type png)
+ <use F02.png>
+Package pdftex.def Info: F02.png used on input line 49.
+(pdftex.def)             Requested size: 512.1496pt x 311.5808pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 49--50
+ [][] 
+ []
+
+<F1.png, id=9, 578.16pt x 433.62pt>
+File: F1.png Graphic file (type png)
+ <use F1.png>
+Package pdftex.def Info: F1.png used on input line 56.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.1}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.63 
+      <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F01.png>] [2pdfTeX warning (ext4
+): destination with the same identifier (name{figure.2}) has been already used,
+ duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.107 \end{verbatim}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F02.png>]
+Overfull \hbox (34.76112pt too wide) in paragraph at lines 107--107
+ []\OT1/cmtt/m/n/10.95 [0.91176470588235292, 0.7857142857142857, 0.888888888888
+88884, 0.55172413793103448][] 
+ []
+
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.107 \end{verbatim}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F1.png>]
+Overfull \hbox (143.98619pt too wide) in paragraph at lines 107--107
+ []\OT1/cmtt/m/n/10.95 [0.84615384615384615, 0.77777777777777779, 0.48148148148
+148145, 0.967741935483871, 0.5714285714285714][] 
+ []
+
+
+Overfull \hbox (17.51506pt too wide) in paragraph at lines 107--107
+ []\OT1/cmtt/m/n/10.95 [1.0, 0.8125, 1.0, 0.5714285714285714, 0.838709677419354
+87, 0.47826086956521741][] 
+ []
+
+<F21.png, id=43, 871.00406pt x 523.20468pt>
+File: F21.png Graphic file (type png)
+ <use F21.png>
+Package pdftex.def Info: F21.png used on input line 111.
+(pdftex.def)             Requested size: 341.43306pt x 205.09483pt.
+
+<F22.png, id=44, 1277.52281pt x 524.71031pt>
+File: F22.png Graphic file (type png)
+ <use F22.png>
+Package pdftex.def Info: F22.png used on input line 118.
+(pdftex.def)             Requested size: 512.1496pt x 210.35277pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+<F3.png, id=45, 578.16pt x 433.62pt>
+File: F3.png Graphic file (type png)
+ <use F3.png>
+Package pdftex.def Info: F3.png used on input line 125.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+
+<F41.png, id=52, 825.83531pt x 526.21594pt>
+File: F41.png Graphic file (type png)
+ <use F41.png>
+Package pdftex.def Info: F41.png used on input line 135.
+(pdftex.def)             Requested size: 341.43306pt x 217.55655pt.
+
+<F42.png, id=53, 831.85782pt x 518.6878pt>
+File: F42.png Graphic file (type png)
+ <use F42.png>
+Package pdftex.def Info: F42.png used on input line 142.
+(pdftex.def)             Requested size: 341.43306pt x 212.8929pt.
+
+<F43.png, id=54, 827.34094pt x 517.18219pt>
+File: F43.png Graphic file (type png)
+ <use F43.png>
+Package pdftex.def Info: F43.png used on input line 149.
+(pdftex.def)             Requested size: 341.43306pt x 213.43498pt.
+
+<F44.png, id=55, 821.31844pt x 505.13719pt>
+File: F44.png Graphic file (type png)
+ <use F44.png>
+Package pdftex.def Info: F44.png used on input line 156.
+(pdftex.def)             Requested size: 341.43306pt x 209.99028pt.
+
+<F45.png, id=56, 842.39719pt x 502.12593pt>
+File: F45.png Graphic file (type png)
+ <use F45.png>
+Package pdftex.def Info: F45.png used on input line 163.
+(pdftex.def)             Requested size: 341.43306pt x 203.52078pt.
+
+<F5.png, id=57, 578.16pt x 433.62pt>
+File: F5.png Graphic file (type png)
+ <use F5.png>
+Package pdftex.def Info: F5.png used on input line 170.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.177 
+       <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F21.png>] [5pdfTeX warning (ext
+4): destination with the same identifier (name{figure.5}) has been already used
+, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.205 \end{verbatim}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F22.png>]
+<F6.png, id=78, 1538.6283pt x 505.89pt>
+File: F6.png Graphic file (type png)
+ <use F6.png>
+Package pdftex.def Info: F6.png used on input line 209.
+(pdftex.def)             Requested size: 512.1496pt x 168.39543pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 209--210
+ [][] 
+ []
+
+<F7.png, id=79, 578.16pt x 433.62pt>
+File: F7.png Graphic file (type png)
+ <use F7.png>
+Package pdftex.def Info: F7.png used on input line 216.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.230 
+       <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F3.png>]
+Overfull \hbox (23.26375pt too wide) in paragraph at lines 257--257
+ []\OT1/cmtt/m/n/10.95 Var1: [[0.1, 0], [0, 0.1]] Var2: [[0.01, 0], [0, 0.1]] V
+ar3: [[0.2, 0], [0, 0.2]][] 
+ []
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.257 \end{verbatim}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F41.png>]
+<F8.png, id=94, 1538.6283pt x 505.89pt>
+File: F8.png Graphic file (type png)
+ <use F8.png>
+Package pdftex.def Info: F8.png used on input line 261.
+(pdftex.def)             Requested size: 512.1496pt x 168.39543pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 261--262
+ [][] 
+ []
+
+<F9.png, id=95, 578.16pt x 433.62pt>
+File: F9.png Graphic file (type png)
+ <use F9.png>
+Package pdftex.def Info: F9.png used on input line 268.
+(pdftex.def)             Requested size: 426.79134pt x 320.09303pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.295 \end{verbatim}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F42.png>]
+<GMM.png, id=105, 578.16pt x 433.62pt>
+File: GMM.png Graphic file (type png)
+ <use GMM.png>
+Package pdftex.def Info: GMM.png used on input line 300.
+(pdftex.def)             Requested size: 512.1496pt x 384.13412pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 300--301
+ [][] 
+ []
+
+<GMMhist.png, id=106, 722.7pt x 361.35pt>
+File: GMMhist.png Graphic file (type png)
+ <use GMMhist.png>
+Package pdftex.def Info: GMMhist.png used on input line 307.
+(pdftex.def)             Requested size: 512.1496pt x 256.07509pt.
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 307--308
+ [][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F43.png>]
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F44.png> <C:/User
+s/Jiajie/Dropbox/STAT598Z/HW/HW6/F45.png>] [11pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.12}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F5.png> <C:/Users
+/Jiajie/Dropbox/STAT598Z/HW/HW6/F6.png>] [12pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.14}) has been already used, duplicate ign
+ored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F7.png> <C:/Users
+/Jiajie/Dropbox/STAT598Z/HW/HW6/F8.png>] [13pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.16}) has been already used, duplicate ign
+ored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/F9.png>] [14pdfTe
+X warning (ext4): destination with the same identifier (name{figure.17}) has be
+en already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/GMM.png>]
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.314 \end{document}
+                     <C:/Users/Jiajie/Dropbox/STAT598Z/HW/HW6/GMMhist.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+
+(C:\Users\Jiajie\Dropbox\STAT598Z\HW\HW6\STAT598ZHW6_Jiajie_Huang.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package rerunfilecheck Info: File `STAT598ZHW6_Jiajie_Huang.out' has not change
+d.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
+ ) 
+Here is how much of TeX's memory you used:
+ 6905 strings out of 493921
+ 100137 string characters out of 3147279
+ 187143 words of memory out of 3000000
+ 10086 multiletter control sequences out of 15000+200000
+ 8240 words of font info for 31 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 29i,5n,24p,1374b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt10.pfb>
+Output written on STAT598ZHW6_Jiajie_Huang.pdf (15 pages, 2964013 bytes).
+PDF statistics:
+ 175 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{katz53}
+L.~Katz.
+\newblock A new status index derived from sociometric analysis.
+\newblock {\em Psychometrika}, 18(1):39--43, March 1953.
+
+\bibitem{expertise_time08}
+Y.~Li and J.~Tang.
+\newblock Expertise search in a time-varying social network.
+\newblock In {\em WAIM}, pages 293--300, 2008.
+
+\bibitem{expertise_smallblue09}
+C.-Y. Lin, N.~Cao, S.~Liu, S.~Papadimitriou, J.~Sun, and X.~Yan.
+\newblock Smallblue: Social network analysis for expertise search and
+  collective intelligence.
+\newblock In {\em ICDE}, pages 1483--1486, 2009.
+
+\bibitem{pagerank99}
+L.~Page, S.~Brin, R.~Motwani, and T.~Winograd.
+\newblock The pagerank citation ranking: Bringing order to the web.
+\newblock Technical Report 1999-66, Stanford InfoLab, November 1999.
+\newblock Previous number = SIDL-WP-1999-0120.
+
+\end{thebibliography}

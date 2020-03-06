@@ -1,0 +1,86 @@
+\def\problemset#1#2#3{
+\noindent\rule{16.5cm}{1pt}
+\begin{center}
+  \parbox{16.5cm}{\bf
+    STAT 598Z Homework 1 \\
+    Instructor: Prof. S V N Vishwanathan \hfill Jiajie Huang\\
+    Due Jan 29, 2013 \hfill huang147@purdue.edu
+    }
+\end{center}
+\noindent\rule{16.5cm}{0.5pt}
+}
+
+\newcommand{\lb}[1]{\left \lfloor #1 \right \rfloor}
+\newcommand{\bmat}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+\documentclass[fleqn, 11pt]{article}
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage{ulem}
+\usepackage{amsmath}
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\setlength{\parindent}{0in}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{mathtools}
+
+
+\begin{document}
+
+\problemset{3}{Problem Set 2}{\today}
+
+
+\section*{Problem 1}
+\subsection*{(a) The count of row number}
+\begin{verbatim}
+Code: 
+wc -l dummy.txt 
+
+Output: 
+4 dummy.txt
+\end{verbatim}
+
+\subsection*{(b) The count of column number}
+\begin{verbatim}
+Code: 
+head -n 1 dummy.txt | wc -w
+
+Output: 
+4
+\end{verbatim}
+
+\subsection*{(c) The count of total entries}
+\begin{verbatim}
+Code: 
+wc -w dummy.txt
+
+Output: 
+16 dummy.txt
+\end{verbatim}
+
+\subsection*{(d) Display the element $a_{11}$}
+\begin{verbatim}
+Code: 
+cut -d " " -f 1 dummy.txt | head -n 1
+
+Output: 
+1
+\end{verbatim}
+
+\subsection*{(e) Display the element $a_{nn}$}
+\begin{verbatim}
+Code: 
+tail -n 1 dummy.txt | cut -f `tail -n 1 dummy.txt | wc -w` -d ' '
+
+Output: 
+16
+\end{verbatim}
+
+
+
+
+
+
+
+\end{document}

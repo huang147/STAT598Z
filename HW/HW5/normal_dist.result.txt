@@ -1,0 +1,30 @@
+test group 0 = all test data
+test group 1 = normal w/ u=(0,0) & sigma=(1,0,0,1)2x2
+test group 2 = normal w/ u=(1,0) & sigma=(0.1,0,0,1)2x2
+test group 3 = normal w/ u=(1,1) & sigma=(2,0,0,2)2x2
+ 
+test group=0,k=1,correct rate=0.52
+test group=1,k=1,correct rate=0.80
+test group=2,k=1,correct rate=0.34
+test group=3,k=1,correct rate=0.41
+ 
+test group=0,k=2,correct rate=0.53
+test group=1,k=2,correct rate=0.73
+test group=2,k=2,correct rate=0.38
+test group=3,k=2,correct rate=0.41
+ 
+test group=0,k=3,correct rate=0.50
+test group=1,k=3,correct rate=0.66
+test group=2,k=3,correct rate=0.28
+test group=3,k=3,correct rate=0.47
+ 
+test group=0,k=4,correct rate=0.51
+test group=1,k=4,correct rate=0.70
+test group=2,k=4,correct rate=0.33
+test group=3,k=4,correct rate=0.41
+ 
+test group=0,k=5,correct rate=0.55
+test group=1,k=5,correct rate=0.72
+test group=2,k=5,correct rate=0.34
+test group=3,k=5,correct rate=0.45
+

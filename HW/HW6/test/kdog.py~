@@ -1,0 +1,25 @@
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+
+data = [ [0,0,0,3,0,0],
+ [0,0,0,0,0,0],
+ [0,3,5,0,0,0],
+ [0,0,0,7,0,0],
+ [0,0,0,0,0,0],
+ [0,0,0,0,0,2],
+ [0,0,0,0,0,0],
+ [0,0,0,0,2,0] ]
+fig = plt.figure()
+ax = Axes3D(fig)
+def plot_xyz_histogram(data, ax, barcolor, filename):
+    for duration, occurrence in zip(range(len(data)), data):
+        current = range(len(occurrence))
+        barband = range(-45, 45, 5)
+        for modifier in barband:
+            ax.bar(current, occurrence, zs=duration+(float(modifier)/100), zdir='y', color=barcolor, alpha=0.6)
+    ax.set_xlabel('Current')
+    ax.set_ylabel('Duration')
+    ax.set_zlabel('Occurrances')
+
+plt.show()

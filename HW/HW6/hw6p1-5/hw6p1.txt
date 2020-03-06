@@ -1,0 +1,498 @@
+
+Generating 20000 points from 3 Gaussian models
+
+
+Different Initial Seeds Given K=2!!
+
+K: 2 Seed: 37
+Iteration: 1  J(r,u): 320.747336477
+Iteration: 2  J(r,u): 241.100984257
+Iteration: 3  J(r,u): 240.075627697
+Iteration: 4  J(r,u): 239.514401173
+Iteration: 5  J(r,u): 239.005770854
+Iteration: 6  J(r,u): 238.325258192
+Iteration: 7  J(r,u): 237.125664833
+Iteration: 8  J(r,u): 236.296957577
+Purities in 2 classes: [0.97499999999999998, 0.51666666666666672]
+
+K: 2 Seed: 14
+Iteration: 1  J(r,u): 352.462483089
+Iteration: 2  J(r,u): 239.96821659
+Iteration: 3  J(r,u): 237.27573355
+Iteration: 4  J(r,u): 236.505768669
+Iteration: 5  J(r,u): 235.966159343
+Iteration: 6  J(r,u): 235.130503825
+Purities in 2 classes: [0.59375, 0.97058823529411764]
+
+K: 2 Seed: 20
+Iteration: 1  J(r,u): 510.743184997
+Iteration: 2  J(r,u): 253.344136906
+Iteration: 3  J(r,u): 238.976587387
+Iteration: 4  J(r,u): 235.896954303
+Iteration: 5  J(r,u): 235.261287693
+Purities in 2 classes: [0.75, 0.76136363636363635]
+
+K: 2 Seed: 76
+Iteration: 1  J(r,u): 400.983858537
+Iteration: 2  J(r,u): 245.019979261
+Iteration: 3  J(r,u): 240.23725335
+Iteration: 4  J(r,u): 239.579303991
+Iteration: 5  J(r,u): 239.364520041
+Iteration: 6  J(r,u): 238.80605082
+Iteration: 7  J(r,u): 238.037771918
+Iteration: 8  J(r,u): 236.699394812
+Iteration: 9  J(r,u): 236.137403044
+Purities in 2 classes: [0.97058823529411764, 0.56060606060606055]
+
+K=2,3,4,5,6!!
+
+K: 2 Seed: 30
+Iteration: 1  J(r,u): 349.389115369
+Iteration: 2  J(r,u): 262.695090655
+Iteration: 3  J(r,u): 250.745103117
+Iteration: 4  J(r,u): 247.601074241
+Iteration: 5  J(r,u): 240.7570529
+Iteration: 6  J(r,u): 236.19315226
+Purities in 2 classes: [0.77966101694915257, 0.58536585365853655]
+
+K: 3 Seed: 30
+Iteration: 1  J(r,u): 255.748828223
+Iteration: 2  J(r,u): 191.034795635
+Iteration: 3  J(r,u): 190.611716202
+Iteration: 4  J(r,u): 190.238116299
+Purities in 3 classes: [0.5, 0.86956521739130432, 0.65625]
+
+K: 4 Seed: 30
+Iteration: 1  J(r,u): 220.464413702
+Iteration: 2  J(r,u): 154.392972069
+Iteration: 3  J(r,u): 150.385259237
+Purities in 4 classes: [0.91176470588235292, 0.7857142857142857, 0.88888888888888884, 0.55172413793103448]
+
+K: 5 Seed: 30
+Iteration: 1  J(r,u): 196.781801235
+Iteration: 2  J(r,u): 129.736789092
+Iteration: 3  J(r,u): 119.810794795
+Iteration: 4  J(r,u): 116.849929349
+Purities in 5 classes: [0.84615384615384615, 0.77777777777777779, 0.48148148148148145, 0.967741935483871, 0.5714285714285714]
+
+K: 6 Seed: 30
+Iteration: 1  J(r,u): 213.616799381
+Iteration: 2  J(r,u): 115.70384947
+Iteration: 3  J(r,u): 107.418080073
+Purities in 6 classes: [1.0, 0.8125, 1.0, 0.5714285714285714, 0.83870967741935487, 0.47826086956521741]
+
+10 Different Initial Seeds Given K=3!!
+
+K: 3 Seed: 92
+Iteration: 1  J(r,u): 63910.5420664
+Iteration: 2  J(r,u): 36111.2524222
+Iteration: 3  J(r,u): 35091.2401706
+Iteration: 4  J(r,u): 34973.1706108
+Iteration: 5  J(r,u): 34954.9430573
+Iteration: 6  J(r,u): 34951.9037993
+Iteration: 7  J(r,u): 34950.9802135
+Iteration: 8  J(r,u): 34950.7151283
+Iteration: 9  J(r,u): 34950.6881334
+Iteration: 10  J(r,u): 34950.6864058
+Purities in 3 classes: [0.68411571473985378, 0.85108263367211667, 0.88843373493975908]
+
+K: 3 Seed: 71
+Iteration: 1  J(r,u): 55972.5079263
+Iteration: 2  J(r,u): 36475.4883301
+Iteration: 3  J(r,u): 35262.0064026
+Iteration: 4  J(r,u): 35057.4222608
+Iteration: 5  J(r,u): 34999.7838314
+Iteration: 6  J(r,u): 34977.7601629
+Iteration: 7  J(r,u): 34965.8384327
+Iteration: 8  J(r,u): 34957.5021522
+Iteration: 9  J(r,u): 34954.559028
+Iteration: 10  J(r,u): 34952.6674151
+Iteration: 11  J(r,u): 34951.7639639
+Iteration: 12  J(r,u): 34951.066067
+Iteration: 13  J(r,u): 34950.72977
+Iteration: 14  J(r,u): 34950.6224615
+Iteration: 15  J(r,u): 34950.6141482
+Purities in 3 classes: [0.86069502696225286, 0.6985082439152055, 0.76382806163828065]
+
+K: 3 Seed: 4
+Iteration: 1  J(r,u): 64991.8278618
+Iteration: 2  J(r,u): 37063.5151627
+Iteration: 3  J(r,u): 36591.7319023
+Iteration: 4  J(r,u): 36037.8804678
+Iteration: 5  J(r,u): 35559.0651448
+Iteration: 6  J(r,u): 35258.0847818
+Iteration: 7  J(r,u): 35129.7447529
+Iteration: 8  J(r,u): 35051.1975816
+Iteration: 9  J(r,u): 35012.8784547
+Iteration: 10  J(r,u): 34986.200306
+Iteration: 11  J(r,u): 34967.4395811
+Iteration: 12  J(r,u): 34957.7489233
+Iteration: 13  J(r,u): 34953.8482797
+Iteration: 14  J(r,u): 34952.3584315
+Iteration: 15  J(r,u): 34951.6043165
+Iteration: 16  J(r,u): 34951.0473583
+Iteration: 17  J(r,u): 34950.7340083
+Iteration: 18  J(r,u): 34950.6903979
+Iteration: 19  J(r,u): 34950.6881327
+Purities in 3 classes: [0.43344768439108061, 0.96828595672465001, 0.49430619991564739]
+
+K: 3 Seed: 0
+Iteration: 1  J(r,u): 52852.0649008
+Iteration: 2  J(r,u): 37494.8687169
+Iteration: 3  J(r,u): 35669.4297288
+Iteration: 4  J(r,u): 35295.2249222
+Iteration: 5  J(r,u): 35144.4137819
+Iteration: 6  J(r,u): 35067.7931396
+Iteration: 7  J(r,u): 35025.1929849
+Iteration: 8  J(r,u): 34993.3707161
+Iteration: 9  J(r,u): 34973.9581993
+Iteration: 10  J(r,u): 34964.1075333
+Iteration: 11  J(r,u): 34956.6977338
+Iteration: 12  J(r,u): 34954.0193724
+Iteration: 13  J(r,u): 34952.4953899
+Iteration: 14  J(r,u): 34951.6822846
+Iteration: 15  J(r,u): 34950.9913755
+Iteration: 16  J(r,u): 34950.7003922
+Iteration: 17  J(r,u): 34950.6212804
+Iteration: 18  J(r,u): 34950.6141482
+Purities in 3 classes: [0.51545875578921019, 0.82616574051703306, 0.81516206804178948]
+
+K: 3 Seed: 99
+Iteration: 1  J(r,u): 48099.3188474
+Iteration: 2  J(r,u): 35657.5300844
+Iteration: 3  J(r,u): 35262.4592312
+Iteration: 4  J(r,u): 35131.0622329
+Iteration: 5  J(r,u): 35054.2613433
+Iteration: 6  J(r,u): 35015.7828479
+Iteration: 7  J(r,u): 34987.9889243
+Iteration: 8  J(r,u): 34968.9329805
+Iteration: 9  J(r,u): 34958.716658
+Iteration: 10  J(r,u): 34954.3899515
+Iteration: 11  J(r,u): 34952.6195905
+Iteration: 12  J(r,u): 34951.7664885
+Iteration: 13  J(r,u): 34951.2438998
+Iteration: 14  J(r,u): 34950.8003893
+Iteration: 15  J(r,u): 34950.6961243
+Iteration: 16  J(r,u): 34950.6888962
+Iteration: 17  J(r,u): 34950.6872782
+Purities in 3 classes: [0.63750340692286722, 0.94856865599223683, 0.64102881167305548]
+
+K: 3 Seed: 72
+Iteration: 1  J(r,u): 58108.9549344
+Iteration: 2  J(r,u): 40186.4476678
+Iteration: 3  J(r,u): 36695.1035441
+Iteration: 4  J(r,u): 35760.7093517
+Iteration: 5  J(r,u): 35309.8484368
+Iteration: 6  J(r,u): 35134.1610767
+Iteration: 7  J(r,u): 35050.9231368
+Iteration: 8  J(r,u): 35013.1272246
+Iteration: 9  J(r,u): 34986.2198548
+Iteration: 10  J(r,u): 34967.5475258
+Iteration: 11  J(r,u): 34957.6993601
+Iteration: 12  J(r,u): 34953.8051507
+Iteration: 13  J(r,u): 34952.3584315
+Iteration: 14  J(r,u): 34951.6043165
+Iteration: 15  J(r,u): 34951.0473583
+Iteration: 16  J(r,u): 34950.7340083
+Iteration: 17  J(r,u): 34950.6903979
+Iteration: 18  J(r,u): 34950.6881327
+Purities in 3 classes: [0.7223042836041359, 0.58889954191967619, 0.9320843091334895]
+
+K: 3 Seed: 1
+Iteration: 1  J(r,u): 52914.7473441
+Iteration: 2  J(r,u): 37110.1212924
+Iteration: 3  J(r,u): 36160.8146086
+Iteration: 4  J(r,u): 35672.2882774
+Iteration: 5  J(r,u): 35379.7027064
+Iteration: 6  J(r,u): 35199.8858047
+Iteration: 7  J(r,u): 35102.8983953
+Iteration: 8  J(r,u): 35047.9714006
+Iteration: 9  J(r,u): 35011.8747578
+Iteration: 10  J(r,u): 34985.434985
+Iteration: 11  J(r,u): 34969.8708016
+Iteration: 12  J(r,u): 34961.1716704
+Iteration: 13  J(r,u): 34955.6322941
+Iteration: 14  J(r,u): 34953.4344769
+Iteration: 15  J(r,u): 34952.3785193
+Iteration: 16  J(r,u): 34951.4961683
+Iteration: 17  J(r,u): 34950.9337057
+Iteration: 18  J(r,u): 34950.7003922
+Iteration: 19  J(r,u): 34950.6212804
+Iteration: 20  J(r,u): 34950.6141482
+Purities in 3 classes: [0.90921841132219816, 0.42696341775390123, 0.8137819774141507]
+
+K: 3 Seed: 10
+Iteration: 1  J(r,u): 63853.721785
+Iteration: 2  J(r,u): 39637.367542
+Iteration: 3  J(r,u): 37935.7141534
+Iteration: 4  J(r,u): 37367.2730642
+Iteration: 5  J(r,u): 37074.8157184
+Iteration: 6  J(r,u): 36732.6097865
+Iteration: 7  J(r,u): 36200.512762
+Iteration: 8  J(r,u): 35668.8941149
+Iteration: 9  J(r,u): 35319.833087
+Iteration: 10  J(r,u): 35154.5371085
+Iteration: 11  J(r,u): 35065.2955774
+Iteration: 12  J(r,u): 35020.090406
+Iteration: 13  J(r,u): 34993.5182662
+Iteration: 14  J(r,u): 34972.2036368
+Iteration: 15  J(r,u): 34959.4718509
+Iteration: 16  J(r,u): 34954.5722273
+Iteration: 17  J(r,u): 34952.6340424
+Iteration: 18  J(r,u): 34951.7664885
+Iteration: 19  J(r,u): 34951.2438998
+Iteration: 20  J(r,u): 34950.8003893
+Iteration: 21  J(r,u): 34950.6961243
+Iteration: 22  J(r,u): 34950.6888962
+Iteration: 23  J(r,u): 34950.6872782
+Purities in 3 classes: [0.48161434977578477, 0.89258710155670873, 0.69463414634146337]
+
+K: 3 Seed: 70
+Iteration: 1  J(r,u): 63210.6120546
+Iteration: 2  J(r,u): 38956.3439918
+Iteration: 3  J(r,u): 36621.7403003
+Iteration: 4  J(r,u): 35754.976679
+Iteration: 5  J(r,u): 35304.7434076
+Iteration: 6  J(r,u): 35130.7934756
+Iteration: 7  J(r,u): 35048.14193
+Iteration: 8  J(r,u): 35011.6435699
+Iteration: 9  J(r,u): 34985.155938
+Iteration: 10  J(r,u): 34967.2349485
+Iteration: 11  J(r,u): 34957.6854578
+Iteration: 12  J(r,u): 34953.8051507
+Iteration: 13  J(r,u): 34952.3584315
+Iteration: 14  J(r,u): 34951.6043165
+Iteration: 15  J(r,u): 34951.0473583
+Iteration: 16  J(r,u): 34950.7340083
+Iteration: 17  J(r,u): 34950.6903979
+Iteration: 18  J(r,u): 34950.6881327
+Purities in 3 classes: [0.96326216580111557, 0.50107480653482372, 0.65632081978520052]
+
+K: 3 Seed: 92
+Iteration: 1  J(r,u): 63910.5420664
+Iteration: 2  J(r,u): 36111.2524222
+Iteration: 3  J(r,u): 35091.2401706
+Iteration: 4  J(r,u): 34973.1706108
+Iteration: 5  J(r,u): 34954.9430573
+Iteration: 6  J(r,u): 34951.9037993
+Iteration: 7  J(r,u): 34950.9802135
+Iteration: 8  J(r,u): 34950.7151283
+Iteration: 9  J(r,u): 34950.6881334
+Iteration: 10  J(r,u): 34950.6864058
+Purities in 3 classes: [0.68411571473985378, 0.85108263367211667, 0.88843373493975908]
+
+4 Different Mean Values Given K=3!!
+
+Mean1: [0, 0] Mean2: [1, 0] Mean3: [0, 1]
+
+K: 3 Seed: 30
+Iteration: 1  J(r,u): 75973.4803773
+Iteration: 2  J(r,u): 40717.9040879
+Iteration: 3  J(r,u): 39406.6307215
+Iteration: 4  J(r,u): 38418.7868698
+Iteration: 5  J(r,u): 38066.90624
+Iteration: 6  J(r,u): 37958.7246074
+Iteration: 7  J(r,u): 37878.6024135
+Iteration: 8  J(r,u): 37739.882972
+Iteration: 9  J(r,u): 37476.7727254
+Iteration: 10  J(r,u): 37152.0504774
+Iteration: 11  J(r,u): 36677.7387728
+Iteration: 12  J(r,u): 36062.053007
+Iteration: 13  J(r,u): 35703.5051045
+Iteration: 14  J(r,u): 35587.6702609
+Iteration: 15  J(r,u): 35552.3001719
+Iteration: 16  J(r,u): 35536.4229538
+Iteration: 17  J(r,u): 35526.8554059
+Iteration: 18  J(r,u): 35522.9563381
+Iteration: 19  J(r,u): 35520.0103987
+Iteration: 20  J(r,u): 35517.1327049
+Iteration: 21  J(r,u): 35515.3430144
+Iteration: 22  J(r,u): 35514.5708171
+Iteration: 23  J(r,u): 35514.218951
+Iteration: 24  J(r,u): 35513.8633234
+Iteration: 25  J(r,u): 35513.5010666
+Iteration: 26  J(r,u): 35513.2357626
+Iteration: 27  J(r,u): 35512.9158972
+Iteration: 28  J(r,u): 35512.7607565
+Iteration: 29  J(r,u): 35512.7332511
+Iteration: 30  J(r,u): 35512.7158225
+Iteration: 31  J(r,u): 35512.6744979
+Iteration: 32  J(r,u): 35512.5590004
+Iteration: 33  J(r,u): 35512.5051045
+Iteration: 34  J(r,u): 35512.468781
+Purities in 3 classes: [0.49061196105702365, 0.9263759828448892, 0.584287317620651]
+
+Mean1: [-1, 0] Mean2: [1, 0] Mean3: [0, 1]
+
+K: 3 Seed: 30
+Iteration: 1  J(r,u): 73224.0038464
+Iteration: 2  J(r,u): 37878.2808063
+Iteration: 3  J(r,u): 37108.9961083
+Iteration: 4  J(r,u): 36956.9745527
+Iteration: 5  J(r,u): 36885.3446896
+Iteration: 6  J(r,u): 36827.7882561
+Iteration: 7  J(r,u): 36778.5014118
+Iteration: 8  J(r,u): 36742.1002674
+Iteration: 9  J(r,u): 36711.6481401
+Iteration: 10  J(r,u): 36694.2904591
+Iteration: 11  J(r,u): 36676.3118547
+Iteration: 12  J(r,u): 36662.9299404
+Iteration: 13  J(r,u): 36651.7860565
+Iteration: 14  J(r,u): 36642.5822582
+Iteration: 15  J(r,u): 36638.9616571
+Iteration: 16  J(r,u): 36636.3611371
+Iteration: 17  J(r,u): 36634.1882387
+Iteration: 18  J(r,u): 36632.9423849
+Iteration: 19  J(r,u): 36632.52716
+Iteration: 20  J(r,u): 36632.4332602
+Iteration: 21  J(r,u): 36632.4210851
+Iteration: 22  J(r,u): 36632.4079295
+Iteration: 23  J(r,u): 36632.3900044
+Iteration: 24  J(r,u): 36632.3528276
+Iteration: 25  J(r,u): 36632.3376068
+Iteration: 26  J(r,u): 36632.3225976
+Iteration: 27  J(r,u): 36632.3193535
+Iteration: 28  J(r,u): 36632.2934326
+Iteration: 29  J(r,u): 36632.2195143
+Iteration: 30  J(r,u): 36632.0864453
+Iteration: 31  J(r,u): 36632.0491537
+Iteration: 32  J(r,u): 36632.0411392
+Iteration: 33  J(r,u): 36632.0344953
+Iteration: 34  J(r,u): 36632.0264294
+Iteration: 35  J(r,u): 36632.0234786
+Purities in 3 classes: [0.45540075990591639, 0.966066229985444, 0.41855788566503876]
+
+Mean1: [0, 0] Mean2: [0, 0.5] Mean3: [0, 1]
+
+K: 3 Seed: 30
+Iteration: 1  J(r,u): 61512.5586555
+Iteration: 2  J(r,u): 35465.2419051
+Iteration: 3  J(r,u): 35161.6336944
+Iteration: 4  J(r,u): 35151.6375954
+Iteration: 5  J(r,u): 35150.1852236
+Iteration: 6  J(r,u): 35149.2376482
+Iteration: 7  J(r,u): 35148.4658238
+Iteration: 8  J(r,u): 35147.9496276
+Iteration: 9  J(r,u): 35147.6013572
+Iteration: 10  J(r,u): 35147.48851
+Iteration: 11  J(r,u): 35147.2298487
+Iteration: 12  J(r,u): 35146.8582248
+Iteration: 13  J(r,u): 35146.521401
+Iteration: 14  J(r,u): 35145.6777209
+Iteration: 15  J(r,u): 35144.618991
+Iteration: 16  J(r,u): 35143.86012
+Iteration: 17  J(r,u): 35143.5051496
+Iteration: 18  J(r,u): 35143.4358193
+Iteration: 19  J(r,u): 35143.3987657
+Iteration: 20  J(r,u): 35143.3670069
+Iteration: 21  J(r,u): 35143.3255586
+Iteration: 22  J(r,u): 35143.2752124
+Purities in 3 classes: [0.42643391521197005, 0.91406617531754741, 0.73117742539642905]
+
+3 Different Variances Given K=3!!
+
+Var1: [[1, 0], [0, 1]] Var2: [[0.10000000000000001, 0], [0, 1]] Var3: [[2, 0], [0, 2]]
+
+K: 3 Seed: 30
+Iteration: 1  J(r,u): 75973.4803773
+Iteration: 2  J(r,u): 40717.9040879
+Iteration: 3  J(r,u): 39406.6307215
+Iteration: 4  J(r,u): 38418.7868698
+Iteration: 5  J(r,u): 38066.90624
+Iteration: 6  J(r,u): 37958.7246074
+Iteration: 7  J(r,u): 37878.6024135
+Iteration: 8  J(r,u): 37739.882972
+Iteration: 9  J(r,u): 37476.7727254
+Iteration: 10  J(r,u): 37152.0504774
+Iteration: 11  J(r,u): 36677.7387728
+Iteration: 12  J(r,u): 36062.053007
+Iteration: 13  J(r,u): 35703.5051045
+Iteration: 14  J(r,u): 35587.6702609
+Iteration: 15  J(r,u): 35552.3001719
+Iteration: 16  J(r,u): 35536.4229538
+Iteration: 17  J(r,u): 35526.8554059
+Iteration: 18  J(r,u): 35522.9563381
+Iteration: 19  J(r,u): 35520.0103987
+Iteration: 20  J(r,u): 35517.1327049
+Iteration: 21  J(r,u): 35515.3430144
+Iteration: 22  J(r,u): 35514.5708171
+Iteration: 23  J(r,u): 35514.218951
+Iteration: 24  J(r,u): 35513.8633234
+Iteration: 25  J(r,u): 35513.5010666
+Iteration: 26  J(r,u): 35513.2357626
+Iteration: 27  J(r,u): 35512.9158972
+Iteration: 28  J(r,u): 35512.7607565
+Iteration: 29  J(r,u): 35512.7332511
+Iteration: 30  J(r,u): 35512.7158225
+Iteration: 31  J(r,u): 35512.6744979
+Iteration: 32  J(r,u): 35512.5590004
+Iteration: 33  J(r,u): 35512.5051045
+Iteration: 34  J(r,u): 35512.468781
+Purities in 3 classes: [0.49061196105702365, 0.9263759828448892, 0.584287317620651]
+
+Var1: [[0.10000000000000001, 0], [0, 0.10000000000000001]] Var2: [[0.01, 0], [0, 0.10000000000000001]] Var3: [[0.20000000000000001, 0], [0, 0.20000000000000001]]
+
+K: 3 Seed: 30
+Iteration: 1  J(r,u): 22594.9651936
+Iteration: 2  J(r,u): 8582.95189656
+Iteration: 3  J(r,u): 7877.61687268
+Iteration: 4  J(r,u): 7413.78881716
+Iteration: 5  J(r,u): 6327.53594006
+Iteration: 6  J(r,u): 5552.5084041
+Iteration: 7  J(r,u): 4873.47231566
+Iteration: 8  J(r,u): 4625.89776231
+Iteration: 9  J(r,u): 4624.61488682
+Purities in 3 classes: [0.74108527131782942, 0.99985211475894709, 0.65734865374721319]
+
+Var1: [[3, 0], [0, 3]] Var2: [[0.29999999999999999, 0], [0, 3]] Var3: [[6, 0], [0, 6]]
+
+K: 3 Seed: 30
+Iteration: 1  J(r,u): 176211.509461
+Iteration: 2  J(r,u): 86893.9147891
+Iteration: 3  J(r,u): 82831.9556173
+Iteration: 4  J(r,u): 82664.8029326
+Iteration: 5  J(r,u): 82616.6488962
+Iteration: 6  J(r,u): 82576.2157863
+Iteration: 7  J(r,u): 82496.3586465
+Iteration: 8  J(r,u): 82394.9620528
+Iteration: 9  J(r,u): 82266.306595
+Iteration: 10  J(r,u): 82106.8956428
+Iteration: 11  J(r,u): 81923.1353001
+Iteration: 12  J(r,u): 81742.9450926
+Iteration: 13  J(r,u): 81569.4950794
+Iteration: 14  J(r,u): 81469.0344234
+Iteration: 15  J(r,u): 81401.4676518
+Iteration: 16  J(r,u): 81335.6502026
+Iteration: 17  J(r,u): 81262.5851193
+Iteration: 18  J(r,u): 81200.3295702
+Iteration: 19  J(r,u): 81153.5394621
+Iteration: 20  J(r,u): 81116.3565267
+Iteration: 21  J(r,u): 81079.4965773
+Iteration: 22  J(r,u): 81048.0498985
+Iteration: 23  J(r,u): 81021.325409
+Iteration: 24  J(r,u): 80993.7582506
+Iteration: 25  J(r,u): 80958.8128672
+Iteration: 26  J(r,u): 80916.2019721
+Iteration: 27  J(r,u): 80881.1864553
+Iteration: 28  J(r,u): 80856.5959095
+Iteration: 29  J(r,u): 80835.6352314
+Iteration: 30  J(r,u): 80819.1448535
+Iteration: 31  J(r,u): 80800.4058643
+Iteration: 32  J(r,u): 80788.6203615
+Iteration: 33  J(r,u): 80781.3388332
+Iteration: 34  J(r,u): 80777.3385183
+Iteration: 35  J(r,u): 80774.5931572
+Iteration: 36  J(r,u): 80772.8400597
+Iteration: 37  J(r,u): 80771.8049603
+Iteration: 38  J(r,u): 80770.4560719
+Iteration: 39  J(r,u): 80769.1987514
+Iteration: 40  J(r,u): 80767.7465408
+Iteration: 41  J(r,u): 80766.9856631
+Iteration: 42  J(r,u): 80766.3745916
+Iteration: 43  J(r,u): 80765.794068
+Iteration: 44  J(r,u): 80764.862421
+Iteration: 45  J(r,u): 80764.2327267
+Iteration: 46  J(r,u): 80763.9716258
+Iteration: 47  J(r,u): 80763.9533797
+Iteration: 48  J(r,u): 80763.949289
+Purities in 3 classes: [0.55916386711459498, 0.74062278839348905, 0.7665476963011032]

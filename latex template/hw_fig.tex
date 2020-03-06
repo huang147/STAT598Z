@@ -1,0 +1,280 @@
+\def\problemset#1#2#3{
+\begin{center}
+\framebox{\vspace{0.5in}
+  \parbox{16cm}{\bf
+    CS 541 Database Systems Homework 2\\
+    Instructor: Prof. Walid G. Aref \\
+    Name: Wei-Yen Day e-mail: wday@purdue.edu}
+  }\vspace{0.05in}
+\end{center}
+}
+
+\newcommand{\lb}[1]{\left \lfloor #1 \right \rfloor}
+
+\documentclass[fleqn, 11pt]{article}
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage{ulem}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
+
+\begin{document}
+\problemset{4}{Problem Set}{\today}
+
+\section{Storage and Indexing}
+\subsection{Exercise 8.2}
+\begin{enumerate}
+\item {\bf What operations are supported by the file of records abstraction?}
+
+As mentioned in textbook, the file of records supports creation and deletion of a file, creation and deletion of a record, and a scan of all the records in the file one at a time.
+
+\item {\bf What is an index on a file of records? What is a search key for an index? Why do we need indexes?}
+
+An index is a data structure that organizes data records on disk to optimize certain kinds of retrieval operations.  A search key for an index is the fields in the index for searching to efficiently retrieve records which satisfy the search conditions.  We need indexes because of the search efficiency.  Otherwise, we need to scan all the records when we address a search, which is very time-consuming.
+\item {\bf What alternatives are available for the data entries in an index?}
+
+There are three main alternatives for the data entries in an index:
+
+\begin{itemize}
+\item [1.] A data entry $k^*$ is an actual data record with search key value $k$.
+\item [2.] A data entry is a $(k, rid)$ pair, where $rid$ is the record id of a data record with search key value $k$.
+\item [3.] A data entry is a $(k, rid-list)$ pair, where $rid-list$ is a list of record ids of data records with search key value $k$.
+\end{itemize}
+\item {\bf What is the difference between a primary index and a secondary index? What is a duplicate data entry in an index? Can a primary index contain duplicates?}
+
+The primary index is the index on a set of fields contains the primary key; otherwise we call the index secondary index.  If two data entries have the same value for the search key field associated with the index, we call them ``duplicate''.  A primary index cannot contain duplicates.
+\item {\bf What is the difference between a clustered index and an unclustered index? If an index contains data records as ‘data entries,’ can it be unclustered?}
+
+If the ordering of data records in the file is the same as or close to the ordering of data entries in some index, we call the index a clustered index.  Otherwise, it is an unclustered index.  If an index contains data records as `data entries', it cannot be unclustered since it is the same ordering of index.  In other words, it is the same as alternative 1.
+\item {\bf How many clustered indexes can you create on a file? Would you always create at least one clustered index for a file?}
+
+We can only create 1 clustered index on a file since we don't want to duplicate the data records.  Sometimes we don't need to create clustered index.  The clustered index is created for the performance of some certain queries, so it is not necessary to always create clustered index to use.  The clustered index is also expensive to maintain so we don't need to create it when not necessary.
+\item {\bf Consider Alternatives (1), (2) and (3) for ‘data entries’ in an index, as discussed in Section 8.2. Are all of them suitable for secondary indexes? Explain.}
+
+Alternative 1 is not suitable for secondary index, because it already has actual data records as data entries.  It must be a primary key for alternative 1.  If we use secondary index, the data record would be replicated and it is something that we should avoid.
+
+\end{enumerate}
+
+\subsection{Exercise 8.4}
+\begin{enumerate}
+\item {\bf An unclustered index on age using Alternative (1)}
+
+We cannot construct an unclustered index using alternative 1.
+
+\item {\bf An unclustered index on age using Alternative (2).}
+
+$<key, (page \#, slot \#)> \Rightarrow$
+
+$<11, (1, 1)>, <12, (1, 2)>, <18, (1, 3)>, <19, (2, 1)>, <19, (2, 2)>$. The order of entries is not significant.
+
+\item {\bf An unclustered index on age using Alternative (3).}
+
+$<key, (page \#, slot \#)> \Rightarrow$
+
+$<11, (1, 1)>, <12, (1, 2)>, <18, (1, 3)>, <19, (2, 1), (2, 2)>$.  The order of entries is not significant.
+
+\item {\bf A clustered index on age using Alternative (1).}
+
+$<key> \Rightarrow$
+
+$<11>, <19>$.  The order of entries is significant since the order of the entries is the same as the order of data record.
+
+\item {\bf A clustered index on age using Alternative (2).}
+
+$<key, (page \#, slot \#)> \Rightarrow$
+
+$<11, (1, 1)>, <19, (2, 1)>$.  The order of entries is significant since the order of the entries is the same as the order of data record.
+
+\item {\bf A clustered index on age using Alternative (3).}
+
+$<key, (page \#, slot \#)> \Rightarrow$
+
+$<11, (1, 1)>, <19, (2, 1), (2, 2)>$.  The order of entries is significant since the order of the entries is the same as the order of data record.
+
+\item {\bf An unclustered index on gpa using Alternative (1). }
+
+We cannot construct an unclustered index using alternative 1.
+
+\item {\bf An unclustered index on gpa using Alternative (2). }
+
+$<key, (page \#, slot \#)> \Rightarrow$
+
+$<1.8, (1, 1)>, <2.0, (1, 2)>, <3.2, (2, 1)>, <3.4, (1, 3)>, <3.8, (2, 2)>$. The order of entries is not significant.
+
+\item {\bf An unclustered index on gpa using Alternative (3). }
+
+$<key, (page \#, slot \#)> \Rightarrow$
+
+$<1.8, (1, 1)>, <2.0, (1, 2)>, <3.2, (2, 1)>, <3.4, (1, 3)>, <3.8, (2, 2)>$. The order of entries is not significant.
+
+\item {\bf A clustered index on gpa using Alternative (1). }
+
+By definition, since the gpa attribute is not sorted, we cannot use alternative 1 to build a clustered index.
+
+\item {\bf A clustered index on gpa using Alternative (2). }
+
+By definition, since the gpa attribute is not sorted, we cannot use alternative 2 to build a clustered index.
+
+\item {\bf A clustered index on gpa using Alternative (3).}
+
+By definition, since the gpa attribute is not sorted, we cannot use alternative 3 to build a clustered index.
+
+\end{enumerate}
+
+\section{Disks and Files}
+\subsection{Exercise 9.6}
+\begin{enumerate}
+\item {\bf How many records fit onto a block?}
+
+A block size of 1024 bytes, 100 bytes per record $\Rightarrow 1024/100 = 10$ records per block.
+
+\item {\bf How many blocks are required to store the entire file? If the file is arranged sequentially on the disk, how many surfaces are needed?}
+
+100000 records, 10 records per block $\Rightarrow 100000/10 = 10000$ blocks required.
+
+A track contains 50 sectors, and a block contains 2 sectors, so a track contains 25 blocks.  A cylinder contains $25*5*2 = 250$ blocks.  We have 10000 blocks to store, so we will use more than a cylinder, that is, we use 10 surfaces to store the file.
+
+\item {\bf How many records of 100 bytes each can be stored using this disk?}
+
+The disk's capacity is 25 blocks per track $\times$ 2000 tracks per surface $\times$ 10 surfaces = 500000 blocks.  There are 10 records in a block, so we can store up to 5000000 records using this disk.
+
+\item {\bf If pages are stored sequentially on disk, with page 1 on block 1 of track 1, what page is stored on block 1 of track 1 on the next disk surface? How would your answer change if the disk were capable of reading and writing from all heads in parallel?}
+
+There are 25 blocks in a track.  So for next surface, the same position store block 26, i.e. page 26.
+
+If the disk were capable of reading and writing from all heads in parallel, we can put pages vertically, that is, 10 pages on 10 surface.  Thus, the same position on next surface is page 2.
+
+\item {\bf What time is required to read a file containing 100,000 records of 100 bytes each sequentially? Again, how would your answer change if the disk were capable of reading/writing from all heads in parallel (and the data was arranged optimally)?}
+
+There are 100000 records $/$ 10 records per block $/$ 25 blocks per track = 400 tracks required for this file.
+
+If the disk speed is 5400 rpm as described in exercise 9.5, the time for a complete rotation is $60/5400 = 0.011$ seconds.
+
+Thus, we need $400 \times 0.011$ = 4.4 seconds to transfer these tracks.  The seek time is 10 msec, and we have 40 seeks to do (40 cylinders).  So the seek time is $40 \times 0.01 = 0.4$ seconds.  The total timer required is $4.4+0.4 = 4.8$ seconds.
+
+If the disk were capable of reading/writing from all heads in parallel, we can transfer 10 tracks at a time.  Thus we only need 0.44 seconds to transfer the tracks.  That is, the total time is $0.44+0.4 = 0.84$ seconds.
+
+\item {\bf What is the time required to read a file containing 100,000 records of 100 bytes each in a random order? To read a record, the block containing the record has to be fetched from disk. Assume that each block request incurs the average seek time and rotational delay.}
+
+The rotational delay is half of the rotation time, which is $0.011/2 = 0.006$ seconds.  
+
+The seek time is 0.01 seconds.
+
+The transfer rate is 25K per track $/$ 0.011 seconds = 2250K per second.  A block has 1K size, so to transfer a block we need 1K $/$ 2250K = 0.00044 seconds.
+
+Thus, the total transfer time for a block is $0.006+0.01+0.00044 = 0.01644$ seconds.  There are 10000 blocks for this file, so we need $0.01644 \times 10000 = 164.4$ seconds to read this file.
+
+\end{enumerate}
+
+\section{Tree-structured index}
+\subsection{Exercise 10.2}
+\begin{enumerate}
+\item {\bf Name all the tree nodes that must be fetched to answer the following query: ``Get all records with search key greater than 38.''}
+
+I1, I2, and L2-L8.
+
+\item {\bf Show the B+ tree that would result from inserting a record with search key 109 into the tree.}
+
+See figure \ref{p32}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{p32.pdf}
+\end{center}
+\caption{Result after inserting a record with search key 109}
+\label{p32}
+\end{figure}
+\item {\bf Show the B+ tree that would result from deleting the record with search key 81 from the original tree.}
+
+See figure \ref{p33}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{p33.pdf}
+\end{center}
+\caption{Result after deleting the record with search key 81}
+\label{p33}
+\end{figure}
+\item {\bf Name a search key value such that inserting it into the (original) tree would cause an increase in the height of the tree.}
+
+If we search a search key with value between 65 to 79, it will cause L5 be split for the new key since it has no additional room in the node.  In that way, the tree will have a new node, and I2 should also be split in to two nodes since I2 is full too.  So again the tree will have a new index.  After I2 is split, I1 should also be split accordingly since we have one more index in the depth where I2 is.  Since I1 is root, a new root would be created and point to I1 and a new index in this depth.
+\item {\bf Note that subtrees A, B, and C are not fully specified. Nonetheless, what can you infer about the contents and the shape of these trees?}
+
+We can infer that A, B, C all satisfy the properties of B+ tree.  That is, they have height equal to 1 since their siblings I2 and I3 also do.  The search key A stores would be less than 10, those B stores would be ranged in 10 to 20 (including 10), and those C stores would be ranged in 20 to 30 (including 20).  They also store at least 2 values in their leaves, and at least 2 key values and 3 pointers in the intermediate node.  There are also doubly pointers between A and B, B and C, and C and L1.
+\item {\bf How would your answers to the preceding questions change if this were an ISAM index?}
+
+1. It is the same answer for ISAM index.
+
+2. It will result the overflow page from L8 to store 109.
+
+3. It will result deleting 81 from L6 and L6 stores only one value 82.
+
+4. For ISAM index, since it is static, the height cannot be changed after the tree constructed.
+
+5. First, A, B, and C have height equal to 1 since their siblings I2 and I3 also do.  The search key A stores would be less than 10, those B stores would be ranged in 10 to 20 (including 10), and those C stores would be ranged in 20 to 30 (including 20).  Each of A, B, C contains 5 leaf nodes, where each may be already full or not.  These nodes are the first 15 pages before the L1.
+
+\item {\bf Suppose that this is an ISAM index. What is the minimum number of insertions needed to create a chain of three overflow pages?}
+
+We need 9 insertions to create a chain of three overflow pages.  These 9 insertions must be inserted into either L4, L5, L7 or L8 since they are already full.  Because 4 values would result the leaf node be full, if we have 9 values, we need additional 3 pages to store.  That causes the chain of three overflow pages be created.
+
+\end{enumerate}
+
+\section{Hash-based index}
+\subsection{Exercise 11.2}
+\begin{enumerate}
+\item {\bf What can you say about the last entry that was inserted into the index?}
+
+We can say nothing about the last entry inserted since any item could be inserted and leads to this result.
+
+\item {\bf What can you say about the last entry that was inserted into the index if you know that there have been no deletions from this index so far?}
+
+If the last entry inserted has hash code $h_0(item) = 00$, it would cause the split.  If not, the last entry inserted could be any item.
+\item {\bf Suppose you know that there have been no deletions from this index so far. What can you say about the last entry whose insertion into the index caused a split?}
+
+It should have the hash code $h_0(item) = 00$.  There were no overflow pages in other buckets.
+
+\item {\bf Show the index after inserting an entry with hash value 4.}
+
+See figure \ref{p44}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{p44.pdf}
+\end{center}
+\caption{The index after inserting an entry with hash value 4.}
+\label{p44}
+\end{figure}
+
+\item {\bf Show the index after inserting an entry with hash value 15 into the original tree.}
+
+See figure \ref{p45}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{p45.pdf}
+\end{center}
+\caption{The index after inserting an entry with hash value 15.}
+\label{p45}
+\end{figure}
+
+\item {\bf Show the index after deleting the entries with hash values 36 and 44 into the original tree. (Assume that the full deletion algorithm is used.)}
+
+See figure \ref{p46}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{p46.pdf}
+\end{center}
+\caption{The index after deleting the entries with hash values 36 and 44.}
+\label{p46}
+\end{figure}
+
+\item {\bf Find a list of entries whose insertion into the original index would lead to a bucket with two overflow pages. Use as few entries as possible to accomplish this. What is the maximum number of entries that can be inserted into this bucket before a split occurs that reduces the length of this overflow chain?}
+
+We can use a list of entries whose $h_1$ and $h_0$ are 011 and 11, respectively.  For example, [43, 47, 51, 55, 59] will cause two overflow pages.  After inserting 43 we have one overflow page after the bucket with $h_0 = 11$, and update the next=2 to the bucket with $h_0=10$.  After inserting 59, we have one more overflow page in the same bucket with $h_0=11$, and update the next=3 to the bucket with $h_0=10$.  Before making the bucket be split and reducing the length of the overflow chain, we can still insert 3 more entries into this bucket.  After 3 entries inserted, any further insertion to this bucket will cause the split of the overflow chain.
+
+\end{enumerate}
+
+
+\end{document}

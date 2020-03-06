@@ -1,0 +1,42 @@
+# count the number of rows
+# code: 
+wc dummy.txt -l 
+# output: 
+4 dummy.txt
+
+
+# count the number of columns 
+# code: 
+tr '|' ' ' < dummy.txt | head -n 1 | wc -w
+# output:
+4
+
+
+# count the total number of entries in matrix
+# code: 
+tr -d '|' < dummy.txt | wc -w
+# delete all the delimiter '|', then count the number of words in the file
+# output: 
+16
+
+
+# display the element a11
+# code: 
+head -n 1 dummy.txt | tr -d ' ' | cut -d '|' -f 2
+# get the first line, delete all the spaces, then cut the file using '|' as delimiter
+# output: 
+1
+
+
+# display the element ann
+# code: 
+tail -n 1 dummy.txt | tr -d ' ' | cut -f `tail -n 1 dummy.txt | tr -s ' ' '\n' | grep -c '|'` -d '|'
+# tail -n 1 dummy.txt | tr -d ' ' | grep -o '|' | wc -l
+# the command right above is first take the last row, delete the spaces, then count the number of '|' delimiters
+# then this code is encapsulated into `` and get executed, the result is 5, which is the index of the last element
+# then the result 5 is used in the pipe below:
+# tail -n 1 dummy.txt | tr -d ' ' | cut -f 5 -d '|'
+# first take the last row, delete the spaces, then cut the last field and get the last element
+# output: 
+16
+

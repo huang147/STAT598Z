@@ -1,0 +1,6 @@
+wc -l dummy.txt 
+head -n 1 dummy.txt | wc -w
+wc -w dummy.txt
+cut -d " " -f 1 dummy.txt | head -n 1
+tail -n 1 dummy.txt | cut -f `tail -n 1 dummy.txt | wc -w` -d ' '
+

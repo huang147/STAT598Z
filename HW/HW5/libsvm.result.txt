@@ -1,0 +1,9 @@
+test group=0,k=1,correct rate=0.77
+ 
+test group=0,k=2,correct rate=0.75
+ 
+test group=0,k=3,correct rate=0.75
+ 
+test group=0,k=4,correct rate=0.75
+ 
+test group=0,k=5,correct rate=0.75
